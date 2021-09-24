@@ -8,9 +8,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 import beans.Evidence;
+import beans.Logger;
 import config.Driver;
 
-public class BasePage {
+public class BasePage extends Logger{
 	
 	@FindBy(xpath="//img[contains(@class, 'logo')]")
 	private WebElement logo;
@@ -20,6 +21,7 @@ public class BasePage {
 	
 	
 	public void acessarUrl() {
+		debug("====== INICIALIZAÇÃO ======");
 		
 		driver.get("http://automationpractice.com/index.php");
 	}

@@ -25,13 +25,15 @@ public class MinhaContaPage extends BasePage {
 	private WebElement lblWelcomeAccount;
 	
 	public void validarMinhaConta() throws DocumentException{
-		System.out.println("=====\n Validação de minha conta \n=====");
+		debug("===== Validação de minha conta =====");
+		
 		evidencia.evidenciaPorPagina("Minha Conta ");
 		assertTrue(titleMyAccount.isDisplayed());
 	}
 	
 	public void validarMensagemWelcome() throws DocumentException{
-		System.out.println("=====\n Welcome \n=====");
+		debug("===== Welcome =====");
+		
 		evidencia.evidenciaPorPagina("Welcome ");
 		assertEquals(lblWelcomeAccount.getText(), "Welcome to your account. Here you can manage all of your personal information and orders.");
 	}

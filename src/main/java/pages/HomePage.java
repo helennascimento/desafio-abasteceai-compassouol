@@ -37,6 +37,7 @@ public class HomePage extends BasePage {
 	
 	
 	public void validarAcesso() {
+		debug("====== HOME- MY STORE ======");
 		assertEquals("My Store", driver.getTitle());
 	}
 	
@@ -44,8 +45,8 @@ public class HomePage extends BasePage {
 		search.sendKeys(procuraDeProduto);
 		evidencia.evidenciaPorPagina("Pesquisa do produto ");
 		sleep(2000);
-		System.out.println("=====\n Pesquisa do escolhido: " + procuraDeProduto + "\n=====");
-		
+		debug("=== Pesquisa do Produto "+procuraDeProduto+" ====");
+				
 	}
 	
 	public void botaoBuscar() {
@@ -59,7 +60,7 @@ public class HomePage extends BasePage {
 	public void clickBtnAddToCart(String nomeDoProduto) throws DocumentException{
 		evidencia.evidenciaPorPagina("Adicionando produto no card ");
 		WebElement nomeProduto = driver.findElement(By.xpath("(//h5[@itemprop='name']//a[contains(text(), '"+nomeDoProduto+"')])[1]"));
-		System.out.println("=====\n Adicionando produto: "+nomeDoProduto+ "\n=====");
+		debug("==== Adicionando Card "+nomeDoProduto+" ====");
 		nomeProduto.click();
 	}
 	
