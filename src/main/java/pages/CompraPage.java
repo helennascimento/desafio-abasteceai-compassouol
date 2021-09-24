@@ -70,7 +70,7 @@ public class CompraPage extends BasePage {
 		WebElement cor = getDriver().findElement(By.xpath("//a[@name='White']"));	
 		evidencia.evidenciaPorPagina("Informação de cor do produto ");
 		cor.click();
-		System.out.println("======\n Informações da compra do produto \n======");
+		debug("==== Informações da compra do produto: "+qtd+", "+tamanho+" ====");
 		btnAddToCart.click();
 	}
 
@@ -95,7 +95,9 @@ public class CompraPage extends BasePage {
 		helper.setValorTotal(String.valueOf(String.format("%.2f", valorTotal)));
 		Assert.assertEquals(String.valueOf(helper.somarValorTotal(helper.getValorProduto(), helper.getValorFrete())), String.valueOf(valorTotal));
 		evidencia.evidenciaPorPagina("Adicionando produto ");
-		System.out.println("======\n Adicionando produto:" + nomeProduto + " \n======");
+		
+		debug("===== "+nomeProduto+ "=====");
+		
 		btnProceedToCheckout.click();
 	}
 

@@ -35,13 +35,16 @@ public class LoginPage extends BasePage {
 	
 	@SuppressWarnings("static-access")
 	public void loginComDadosValidos(String email, String senha) throws DocumentException, InterruptedException{
-		System.out.println("=====\n Inicialização de login \n=====");
+		debug("===== Inicialização de login =====");
+		
 		evidence.evidenciaPorPagina("Login ");
 		inputEmail.sendKeys(email);
 		evidence.evidenciaPorPagina("Inserindo dados para acesso");
 		inputSenha.sendKeys(senha);
 		evidence.evidenciaPorPagina("Dados inserido com sucesso");
 		btnSignIn.click();
+		
+		debug("====== Login: "+email+ "======");
 		
 		
 	}	

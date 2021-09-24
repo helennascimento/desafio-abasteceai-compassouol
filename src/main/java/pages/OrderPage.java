@@ -81,7 +81,8 @@ public class OrderPage extends BasePage {
     // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     public void validarValoresPedido() throws DocumentException {
-    	System.out.println("======\n Validando valores do pedido \n======");
+    	debug("====== Validando valores do pedido ======");
+    	
     	evidencia.evidenciaPorPagina("Validação do valores do Pedido ");
         assertEquals(values.getValorProduto(), lblTotalProdutos.getText().replace("$", ""));
         assertEquals(values.getValorTotal(), lblValorTotal.getText().replace("$", "").replace(".", ","));
@@ -109,7 +110,8 @@ public class OrderPage extends BasePage {
     }
 
     public void clicarProcederCheckout() throws DocumentException {
-    	System.out.println("======\n Checkout \n======");
+    	debug("====== Checkout ======");
+    	
     	evidencia.evidenciaPorPagina("Checkout ");
         scrollDown();
         btnProcederCheckout.click();
@@ -120,13 +122,15 @@ public class OrderPage extends BasePage {
     }
 
     public void passoValidarCarrinho() throws DocumentException {
-    	System.out.println("======\n Validação do carrinho \n======");
+    	debug("====== Validação do carrinho ======");
+    	
     	evidencia.evidenciaPorPagina("Validação do Carrinho ");
         validarValoresPedido();
     }
 
     public void passoValidarEndereco() throws DocumentException {
-    	System.out.println("======\n Validação do Endereço \n======");
+    	debug("====== Validação do Endereço ======");
+    	
     	evidencia.evidenciaPorPagina("Validação do endereço ");
         validarEnderecoEntrega();
     }
@@ -136,11 +140,14 @@ public class OrderPage extends BasePage {
         evidencia.evidenciaPorPagina("Seleção de endereço ");
         WebElement enderecoSelecionado = selectEndereco.findElement(By.xpath("//option[@selected='selected']"));
         values.setNomeEnderecoEntrega(enderecoSelecionado.getText());
-        System.out.println("======\n Seleção de endereço: "+ enderecoSelecionado + "\n======");
+        
+        debug("====== Selecionar endereço: "+enderecoSelecionado+"======");
+       
     }
 
     public void validarEntrega() throws DocumentException {
-    	System.out.println("======\n Validação de Entrega \n======");
+    	debug("====== Validação de Entrega ======");
+    	
         assertEquals("desafios", tituloTransporte.getText().substring(43, 51));
         values.setValorFrete(valorEntregaShipping.getText().trim().replace("$", ""));
         evidencia.evidenciaPorPagina("Validando Entrega");
@@ -163,17 +170,20 @@ public class OrderPage extends BasePage {
     public void escolherMetodoDePagamento(String pagamento) {
         metodoPagamento = pagamento;
 
-        System.out.println("PAGAMENTO SALVO: " + metodoPagamento);
-
-        System.out.println("======\n Entrando na escolha de metodo de pagamento \n======");
+        debug("===== PAGAMENTO SALVO: " + metodoPagamento + "======");
+        
+        debug("====== Entrando na escolha de metodo de pagamento ======");
+     
         WebElement elemento = null;
 
         if (pagamento.equals("bankwire")) {
-            System.out.println("======\n Escolhido transferencia bancaria \n======");
+        	debug("====== Escolhido transferencia bancaria ======");
+            
             elemento = getDriver().findElement(By.xpath("//a[@class='" + pagamento + "']"));
             elemento.click();
         } else {
-            System.out.println("======\n Escolhido cheque \n======");
+        	debug("====== Escolhido cheque ======");
+           
             elemento = getDriver().findElement(By.xpath("//a[@class='" + pagamento + "']"));
             elemento.click();
         }
@@ -184,7 +194,9 @@ public class OrderPage extends BasePage {
         Assert.assertEquals("ORDER SUMMARY".trim(), tituloPedidoPage.getText().trim());
         Assert.assertEquals(String.valueOf(values.getValorTotal().replace(",", ".")), spanValorTotalConfirmacaoPedido.getText().replace("$", "").trim());
         evidencia.evidenciaPorPagina("Confirmação do pedido");
-        System.out.println("======\n Confirmação do Pedido \n======");
+        
+        debug("====== Confirmação do Pedido ======");
+        
         buttonConfirmarPedido.click();
     }
 
@@ -197,7 +209,8 @@ public class OrderPage extends BasePage {
         } else {
             Assert.assertEquals("Your order on My Store is complete.".trim(), textoCompraComSucessoCheque.getText().trim());
         }
-        System.out.println("======\n Finalização da compra com Sucesso \n======");
+        debug("====== Finalização da compra com Sucesso ======");
+        
 
     }
 
