@@ -1,91 +1,32 @@
-2021-09-24 18:36:17,719 DEBUG [main] - beans.Logger.logger 9 - Produto
-2021-09-24 18:40:08,558 ERROR [main] - beans.Logger.logger 12 - java.lang.Exception: New Exception
-2021-09-24 18:50:36,878 DEBUG [main] - beans.Logger.debug 22 - PRODUTO
-2021-09-24 18:58:44,074 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 18:59:01,047 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 18:59:03,472 DEBUG [main] - beans.Logger.debug 22 - =====
- Pesquisa do escolhido: Faded Short Sleeve
-=====
-2021-09-24 18:59:06,571 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 18:59:56,864 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:00:52,555 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:01:11,857 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:01:14,288 DEBUG [main] - beans.Logger.debug 22 - ===
- Pesquisa do escolhido: Faded Short Sleeve
-===
-2021-09-24 19:01:19,143 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:02:35,670 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:02:55,221 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:02:57,632 DEBUG [main] - beans.Logger.debug 22 - ===
- Pesquisa: Faded Short Sleeve
-===
-2021-09-24 19:03:03,256 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:04:13,999 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:04:30,051 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:04:32,468 DEBUG [main] - beans.Logger.debug 22 - 
- Pesquisa: Faded Short Sleeve
-
-2021-09-24 19:04:37,097 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:05:48,805 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:06:17,653 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:06:20,095 DEBUG [main] - beans.Logger.debug 22 - ====
- Faded Short Sleeve
-====
-2021-09-24 19:06:23,435 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:07:13,947 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:07:41,550 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:07:44,029 DEBUG [main] - beans.Logger.debug 22 - ==
- Faded Short Sleeve
-==
-2021-09-24 19:07:47,615 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:08:15,375 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:08:31,966 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:08:34,385 DEBUG [main] - beans.Logger.debug 22 - 
- Faded Short Sleeve
-
-2021-09-24 19:08:39,926 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:42:22,441 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:43:03,381 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:43:05,824 DEBUG [main] - beans.Logger.debug 22 - ====
- Pesquisa do Produto 
-====
-2021-09-24 19:43:10,778 DEBUG [main] - beans.Logger.debug 22 - ====== Validação da Pesquisa ======
-2021-09-24 19:52:22,650 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:52:27,234 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:52:29,196 DEBUG [main] - beans.Logger.debug 22 - ===== Inicialização de login =====
-2021-09-24 19:52:33,696 DEBUG [main] - beans.Logger.debug 22 - ====== Login: desafioautomacao@gmail.com======
-2021-09-24 19:52:33,696 DEBUG [main] - beans.Logger.debug 22 - ===== Welcome =====
-2021-09-24 19:52:36,567 DEBUG [main] - beans.Logger.debug 22 - ==== Adicionando Card Blouse ====
-2021-09-24 19:52:40,489 DEBUG [main] - beans.Logger.debug 22 - ==== Informações da compra do produto: 1, M, [[ChromeDriver: chrome on WINDOWS (a08bcd2e56e9a615ac07467bdb98dabc)] -> xpath: //a[@name='White']] ====
-2021-09-24 19:52:42,920 DEBUG [main] - beans.Logger.debug 22 - ====Blouse====
-2021-09-24 19:52:45,561 DEBUG [main] - beans.Logger.debug 22 - ====== Validação do carrinho ======
-2021-09-24 19:52:45,881 DEBUG [main] - beans.Logger.debug 22 - ====== Validando valores do pedido ======
-2021-09-24 19:52:46,178 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
-2021-09-24 19:52:48,294 DEBUG [main] - beans.Logger.debug 22 - ====== Validação do Endereço ======
-2021-09-24 19:52:48,809 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
-2021-09-24 19:52:51,300 DEBUG [main] - beans.Logger.debug 22 - ====== Validação de Entrega ======
-2021-09-24 19:52:51,922 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
-2021-09-24 19:52:55,035 DEBUG [main] - beans.Logger.debug 22 - ====== Entrando na escolha de metodo de pagamento ======
-2021-09-24 19:52:55,036 DEBUG [main] - beans.Logger.debug 22 - ====== Escolhido transferencia bancaria ======
-2021-09-24 19:52:56,252 DEBUG [main] - beans.Logger.debug 22 - ====== Confirmação do Pedido ======
-2021-09-24 19:52:58,996 DEBUG [main] - beans.Logger.debug 22 - ====== Finalização da compra com Sucesso ======
-2021-09-24 19:58:46,174 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
-2021-09-24 19:58:50,235 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
-2021-09-24 19:58:53,095 DEBUG [main] - beans.Logger.debug 22 - ===== Inicialização de login =====
-2021-09-24 19:58:56,321 DEBUG [main] - beans.Logger.debug 22 - ====== Login: desafioautomacao@gmail.com======
-2021-09-24 19:58:56,321 DEBUG [main] - beans.Logger.debug 22 - ===== Welcome =====
-2021-09-24 19:58:59,563 DEBUG [main] - beans.Logger.debug 22 - ==== Adicionando Card Blouse ====
-2021-09-24 19:59:02,936 DEBUG [main] - beans.Logger.debug 22 - ==== Informações da compra do produto: 1, M ====
-2021-09-24 19:59:05,455 DEBUG [main] - beans.Logger.debug 22 - ===== Blouse=====
-2021-09-24 19:59:07,116 DEBUG [main] - beans.Logger.debug 22 - ====== Validação do carrinho ======
-2021-09-24 19:59:07,436 DEBUG [main] - beans.Logger.debug 22 - ====== Validando valores do pedido ======
-2021-09-24 19:59:07,756 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
-2021-09-24 19:59:09,254 DEBUG [main] - beans.Logger.debug 22 - ====== Validação do Endereço ======
-2021-09-24 19:59:09,799 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
-2021-09-24 19:59:11,198 DEBUG [main] - beans.Logger.debug 22 - ====== Validação de Entrega ======
-2021-09-24 19:59:11,826 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
-2021-09-24 19:59:13,672 DEBUG [main] - beans.Logger.debug 22 - ===== PAGAMENTO SALVO: bankwire======
-2021-09-24 19:59:13,673 DEBUG [main] - beans.Logger.debug 22 - ====== Entrando na escolha de metodo de pagamento ======
-2021-09-24 19:59:13,673 DEBUG [main] - beans.Logger.debug 22 - ====== Escolhido transferencia bancaria ======
-2021-09-24 19:59:14,885 DEBUG [main] - beans.Logger.debug 22 - ====== Confirmação do Pedido ======
-2021-09-24 19:59:17,218 DEBUG [main] - beans.Logger.debug 22 - ====== Finalização da compra com Sucesso ======
+2021-09-26 19:30:20,181 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
+2021-09-26 19:30:26,292 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
+2021-09-26 19:30:28,523 DEBUG [main] - beans.Logger.debug 22 - ===== Inicialização de login =====
+2021-09-26 19:30:30,587 DEBUG [main] - beans.Logger.debug 22 - ====== Login: desafioautomacao@gmail.com======
+2021-09-26 19:30:30,587 DEBUG [main] - beans.Logger.debug 22 - ===== Welcome =====
+2021-09-26 19:30:32,416 DEBUG [main] - beans.Logger.debug 22 - ==== Adicionando Card Blouse ====
+2021-09-26 19:30:47,477 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
+2021-09-26 19:30:51,179 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
+2021-09-26 19:30:52,677 DEBUG [main] - beans.Logger.debug 22 - ===== Inicialização de login =====
+2021-09-26 19:30:54,518 DEBUG [main] - beans.Logger.debug 22 - ====== Login: desafioautomacao@gmail.com======
+2021-09-26 19:30:54,519 DEBUG [main] - beans.Logger.debug 22 - ===== Welcome =====
+2021-09-26 19:30:56,482 DEBUG [main] - beans.Logger.debug 22 - ==== Adicionando Card Blouse ====
+2021-09-26 19:32:39,307 DEBUG [main] - beans.Logger.debug 22 - ====== INICIALIZAÇÃO ======
+2021-09-26 19:32:43,370 DEBUG [main] - beans.Logger.debug 22 - ====== HOME- MY STORE ======
+2021-09-26 19:32:45,171 DEBUG [main] - beans.Logger.debug 22 - ===== Inicialização de login =====
+2021-09-26 19:32:47,391 DEBUG [main] - beans.Logger.debug 22 - ====== Login: desafioautomacao@gmail.com======
+2021-09-26 19:32:47,391 DEBUG [main] - beans.Logger.debug 22 - ===== Welcome =====
+2021-09-26 19:32:50,446 DEBUG [main] - beans.Logger.debug 22 - ==== Adicionando Card Blouse ====
+2021-09-26 19:32:53,193 DEBUG [main] - beans.Logger.debug 22 - ==== Informações da compra do produto: 1, M ====
+2021-09-26 19:32:55,721 DEBUG [main] - beans.Logger.debug 22 - ===== Blouse=====
+2021-09-26 19:32:57,683 DEBUG [main] - beans.Logger.debug 22 - ====== Validação do carrinho ======
+2021-09-26 19:32:57,882 DEBUG [main] - beans.Logger.debug 22 - ====== Validando valores do pedido ======
+2021-09-26 19:32:58,090 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
+2021-09-26 19:32:59,377 DEBUG [main] - beans.Logger.debug 22 - ====== Validação do Endereço ======
+2021-09-26 19:32:59,782 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
+2021-09-26 19:33:01,208 DEBUG [main] - beans.Logger.debug 22 - ====== Validação de Entrega ======
+2021-09-26 19:33:01,840 DEBUG [main] - beans.Logger.debug 22 - ====== Checkout ======
+2021-09-26 19:33:03,156 DEBUG [main] - beans.Logger.debug 22 - ===== PAGAMENTO SALVO: bankwire======
+2021-09-26 19:33:03,157 DEBUG [main] - beans.Logger.debug 22 - ====== Entrando na escolha de metodo de pagamento ======
+2021-09-26 19:33:03,157 DEBUG [main] - beans.Logger.debug 22 - ====== Escolhido transferencia bancaria ======
+2021-09-26 19:33:04,163 DEBUG [main] - beans.Logger.debug 22 - ====== Confirmação do Pedido ======
+2021-09-26 19:33:06,176 DEBUG [main] - beans.Logger.debug 22 - ====== Finalização da compra com Sucesso ======
