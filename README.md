@@ -14,7 +14,7 @@ Automacao de Teste <br>
  
 # ==== Usando metodo para Headless ====
  
- * Basta ir na pasta "config" e comentar o metódo para ver a tela e descomentar o método HEAD <br>
+ * Basta ir na pasta "config"  e classe Propriedades e escolher a forma ou o Browser que deseja usar <br>
  
 # ==== Evidencias ====
  
